@@ -74,13 +74,13 @@ function buscoInterseccion(arreglo1, arreglo2){
 // --------------------------------
 
 module.exports = {
-   deObjetoAmatriz,
-   numberOfCharacters,
-   capToFront,
-   asAmirror,
-   capicua,
-   deleteAbc,
-   sortArray,
-   buscoInterseccion,
+    deObjetoAmatriz,
+    numberOfCharacters,
+    capToFront,
+    asAmirror,
+    capicua,
+    deleteAbc,
+    sortArray,
+    buscoInterseccion,
 };
 

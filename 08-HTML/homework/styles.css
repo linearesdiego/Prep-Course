@@ -1,0 +1,47 @@
+body{
+    background-image: url(https://img.freepik.com/foto-gratis/comida-ingredientes_1220-4884.jpg?t=st=1653944166~exp=1653944766~hmac=fc2278dee2ed564c278efaad3e70952cdd464fca19ae67a1e9be24f5ac9347e8&w=1380)
+}
+
+h1{
+    color: white;
+}
+h3{
+    color: white;
+}
+h4{
+    color: white;
+}
+img{
+    width: 400px;
+    padding-top: 10px;
+    display: flex;
+
+}
+#section{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+#thirdDiv{
+    height: 600px;
+    width: 500px;
+    background-color: gray;
+    padding: 50px;
+    border: solid 2px black;
+}
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    color: white;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    width: 150px;
+}
+.divClass{
+    text-align: center;
+} 

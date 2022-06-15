@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Reboto', sans-serif;
+}
+h2{font-size: 2em;
+    color: lightblue;
+}
+h3{font-size: 3em;color: lightblue;
+    margin: 0;
+}
+p{
+    font-size: 1.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#header1 {
+    background-color: rgb(38, 37, 37);
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+}
+#header1 h1{
+    font-size: 3em;
+    color: lightblue;
+    font-weight: bold;
+    margin: 0px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+#header1 .conteiner{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    
+}
+#header1 a{
+    text-decoration: none;
+    padding-right: 20px;
+    font-weight: bold;
+    color: lightblue;
+    font-size: 1.2em;
+}
+#header1 a:hover{
+    text-decoration: underline;
+}
+#section1{
+}
+#section1 .container{
+    text-align: center;
+    padding: 200px 12px;
+    display: flex;
+    justify-content: center;
+
+}
+#section1 .img-container{
+    background-image: url("diego1.jpg");
+    width: 20%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 50%;
+}
+#section1 .texto{
+    width: 50%;
+    text-align: initial;
+    padding: 0 20px;
+}
+#section1 li{
+    font-size: 1em;
+}
+#habilidades .img-container1{
+    background-image: url("background-2.jpeg");
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 450px;
+    background-position: center center;
+    border-radius: 20%;
+}
+#habilidades .texto1{
+    width: 50%;
+    text-align: initial;
+    padding: 0 20px;
+    
+}
+#habilidades .container{
+    text-align: center;
+    padding: 200px 12px;
+    display: flex;
+    background-color: gray;
+    justify-content: center;
+}
+#habilidades li{
+    margin: 16px 0;
+    font-weight: bold;
+    font-size: 1.5;
+}
+#habilidades ul{
+    list-style: none;
+}
+
+
+
+
+
+#hobbies .container{
+    text-align: center;
+    padding: 200px 12px;
+    display: flex;
+    justify-content: center;
+
+    
+}
+#hobbies li{
+    margin: 16px 0;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+#hobbies p{
+    font-size: 1.2em;
+    font-weight: bold;
+    width: 40%;
+    margin-top: 100px;
+    display: block;
+}
+#hobbies .texto2{
+    padding : 20px 15px;
+}
